@@ -29,7 +29,7 @@ export const AppRoutes = () => {
   const pathByRole = {
     ADMIN: "/admin",
     USER: "/user",
-    GUEST: "/guest",
+    GUEST: "/sign-in",
   };
 
   const routes = createBrowserRouter([
