@@ -35,7 +35,7 @@ export const AppRoutes = () => {
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Navigate to="/" replace />,
+      element: <Navigate to={pathByRole[role]} replace />,
     },
     {
       path: "sign-up",
