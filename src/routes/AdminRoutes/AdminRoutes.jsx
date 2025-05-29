@@ -4,11 +4,11 @@ import { AdminLayout } from "../../layout/AdminLayout";
 export const AdminRoutes = () => {
   return [
     {
-      path: "/admin",
-      element: <Navigate to={"/admin"} />,
+      index: true,
+      element: <Navigate to="layout" replace />,
     },
     {
-      path: "/admin/layout",
+      path: "layout",
       element: <AdminLayout />,
     },
   ];
